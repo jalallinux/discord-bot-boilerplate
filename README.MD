@@ -9,19 +9,19 @@ You can create new discord bot at https://discord.com/developers/applications/
 
 ## How To Use
 
-1. Clone this repository :
+1. Clone this repository
 
 ```
 git clone https://github.com/jalallinux/discord-bot-boilerplate.git
 ```
 
-2. Install npm packages (open it in terminal) :
+2. Install npm packages (open it in terminal)
 
 ```
 npm install
 ```
 
-3. Set config file :
+3. Set config file
 
 ```json
 {
@@ -31,13 +31,13 @@ npm install
 }
 ```
 
-4. Optional : Install nodemon as global :
+4. Optional : Install nodemon as global
 
 ```
 npm install -g nodemon
 ```
 
-5. Run bot as **watch** or **start** script :
+5. Run bot as **watch** or **start** script
 
 ```
 npm run start
