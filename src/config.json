@@ -1,0 +1,5 @@
+{
+    "botToken": "ENTER YOUR BOT TOKEN HERE",
+    "botPrefix": "SELECT YOUR BOT PREFIX HERE",
+    "mongoPath": "ENTER YOUR MONGODB CONNECTION"
+}

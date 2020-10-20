@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "A Discord Boilerplate Bot",
+  "repository": "https://github.com/jalallinux/discord-bot-boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src",
+    "@database": "src/database",
+    "@commands": "src/commands"
+  },
+  "author": "JalalLinuX",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord.js": "^12.4.0",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.10.9"
+  }
+}
