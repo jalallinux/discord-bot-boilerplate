@@ -1,8 +1,6 @@
 require("module-alias/register");
-const path = require("path");
 const chalk = require("chalk");
 const log = console.log;
-const fs = require("fs");
 const mongo = require("@database/mongo");
 const config = require("@src/config.json");
 const { Client } = require("discord.js");
