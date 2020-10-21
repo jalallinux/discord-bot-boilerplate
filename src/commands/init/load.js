@@ -3,7 +3,7 @@ const fs = require("fs");
 
 module.exports = (client) => {
   const baseFile = "base.js";
-  const commandBase = require(`@commands/init/${baseFile}`);
+  const commandBase = require(`$commands/init/${baseFile}`);
 
   const commands = [];
 

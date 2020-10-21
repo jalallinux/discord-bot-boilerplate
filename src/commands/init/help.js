@@ -1,5 +1,5 @@
-const loadCommands = require("@commands/init/load");
-const { botPrefix } = require("@src/config.json");
+const loadCommands = require("$commands/init/load");
+const { botPrefix } = require("$root/config.json");
 
 module.exports = {
   commands: ["help", "h"],

@@ -10,17 +10,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "_moduleAliases": {
-    "@root": ".",
-    "@src": "src",
-    "@database": "src/database",
-    "@commands": "src/commands"
+    "$root": "./",
+    "$src": "./src",
+    "$database": "./src/database",
+    "$commands": "./src/commands"
   },
   "author": "JalalLinuX",
   "license": "ISC",
   "dependencies": {
+    "better-module-alias": "^1.1.0",
     "chalk": "^4.1.0",
     "discord.js": "^12.4.0",
-    "module-alias": "^2.2.2",
     "mongoose": "^5.10.9"
   }
 }

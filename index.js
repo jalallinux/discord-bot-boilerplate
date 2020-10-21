@@ -1,12 +1,12 @@
-require("module-alias/register");
+require("better-module-alias")(__dirname);
 const chalk = require("chalk");
 const log = console.log;
-const mongo = require("@database/mongo");
-const config = require("@src/config.json");
+const mongo = require("$database/mongo");
+const config = require("$root/config.json");
 const { Client } = require("discord.js");
 
 const client = new Client();
-const loadCommands = require("@commands/init/load");
+const loadCommands = require("$commands/init/load");
 
 client.on("ready", async () => {
   log(chalk.bgGreen.black(`- - - The ${client.user.tag} is on ready now ...`));

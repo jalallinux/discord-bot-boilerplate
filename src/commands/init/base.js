@@ -5,7 +5,7 @@
  *  this file then expect the file to be slightly different than in the video.
  */
 
-const { botPrefix } = require("@src/config.json");
+const { botPrefix } = require("$root/config.json");
 
 const validatePermissions = (permissions) => {
   const validPermissions = [
