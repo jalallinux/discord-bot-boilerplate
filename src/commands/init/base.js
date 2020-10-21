@@ -58,7 +58,7 @@ module.exports = (client, commandOptions) => {
     maxArgs = null,
     permissions = [],
     requiredRoles = [],
-    discription = "",
+    description = "",
     callback,
   } = commandOptions;
 
